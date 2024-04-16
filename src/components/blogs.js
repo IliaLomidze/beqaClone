@@ -2,7 +2,7 @@ import React from "react";
 import Beqa from '../images/beqa.jpeg'
 import Greens from '../images/green.jpeg'
 import truck from '../images/truck.jpeg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import '../styles/blog.css'
 
