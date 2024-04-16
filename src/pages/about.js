@@ -1,17 +1,16 @@
 import React from 'react';
-import Navbar from './Navbar';
+import Navbar from '../components/Navbar';
+import Cards from '../components/cards';
 
 function AboutUs() {
   return (
     <div>
       <Navbar />
-      <div className="about-us">
-        <h1>About Us</h1>
-        <p>Welcome to our organization! Here, we strive to make a positive impact on society...</p>
-        {/* Add more content as needed */}
-      </div>
+      <Cards />
     </div>
   );
 }
 
 export default AboutUs;
+
+

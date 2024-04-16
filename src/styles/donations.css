@@ -1,0 +1,48 @@
+.dontaions-container{
+    display: flex;
+    padding: 2rem;
+    background: #B4D3EB;
+    justify-content: space-between;
+    gap: 4rem;
+    align-items: center;
+
+}
+.dontaions-text{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    font-weight: 500;
+}
+.dontaions-text p{
+    font-weight: 400;
+}
+.dontaions-text input::placeholder{
+    font-weight: 500;
+}
+.dontaions-container img{
+    width: 673px;
+    height: 550px;
+}
+.dono{
+    display: flex;
+    gap: 12rem;
+}
+.dono input{
+    border: none;
+    background-color: #B4D3EB;
+    color: #121334;
+    margin-top: 2rem;
+}
+.dontaions-container button{
+    width: 184px;
+    height: 56px;
+    background: #F8F5F1;
+    border: none;
+}
+.dono-btn{
+    margin-top: 2rem;
+    width: 73px;
+    height: 19px;
+    color: #121334;
+    font-weight: 500;
+}

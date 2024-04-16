@@ -1,0 +1,33 @@
+.blog-container{
+    height: 900px;
+    background-color: antiquewhite;
+}
+.blog-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.blog-title h1{
+    margin-left: 1rem;
+}
+.blog-title a{
+    margin-right: 2.5rem;
+    margin-top: 2rem;
+}
+.blogs{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+}
+.blog123{
+    width: 450px;
+    height: 400px;
+}
+.blog123 a{
+  margin-left: 20px;
+}
+.blog123 img{
+    width: 400px;
+    height: 300px;
+    margin-left: 20px;
+}

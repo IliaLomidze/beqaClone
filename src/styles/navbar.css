@@ -1,0 +1,62 @@
+.nav{
+    height: 120px;
+    background: #B4D3EB;
+    color: #121334;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+    width: 100%;
+}
+.nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+}
+.nav a{
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.25rem;
+    font-weight: 500;
+}
+.nav a img{
+    width: 110px;
+    height: 110px;
+}
+.nav li:active{
+    background-color: #555;
+}
+.nav a:hover{
+    background-color: #B4D3EB;
+    ;
+}
+.donation{
+    width: 176px;
+    height: 56px;
+    border-radius: 68px;
+    opacity: 0px;
+    color: #121334;
+    background: #F8F5F1;
+    text-align: center;
+    border: none !important;
+    font-weight: 500;
+}
+.dontaion button{
+    width: 176px;
+    height: 56px;
+    border-radius: 68px;
+    opacity: 0px;
+    color: #121334;
+    background: #F8F5F1;
+    text-align: center;
+}
+.nav-img img{
+    width: 100%;
+    height: 630px;
+}

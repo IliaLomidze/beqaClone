@@ -1,0 +1,109 @@
+.team h2{
+    margin-left: 6rem;
+    width: 126px;
+    height: 48px;
+    color: #121334;
+}
+.teampics{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.teampics img{
+    width: 318.89px;
+    height: 451.3px;
+    border-radius: 219px;
+    border: 3px solid black;
+}
+.row1{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 0.5rem;
+}
+.row1 button{
+    position: absolute;
+    top: 240px; 
+    width: 120px;
+    height: 36px;
+    border-radius: 39px;
+    color: #76777C;
+    font-size: 10px;
+}
+.row1 p{
+    margin-top: 1rem;
+    font-weight: 500;
+}
+.row1 img{
+    margin-top: 3rem;
+}
+.row1 a{
+    text-decoration: none;
+    color: #6D7B8B;
+    width: 60px;
+    height: 24px;
+}
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup-inner{
+    overflow: hidden;
+    border-radius: 42px;
+    position: relative;
+    width: 100%;
+    max-width: 640px;
+    background-color: #fff;
+}
+.popup-inner .close-btn{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 30px;
+}
+.popup-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #B4D3EB;
+    height: 80px;
+}
+.main-info{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.main-info h3{
+    font-weight: 500;
+}
+.main-info p{
+    font-weight: 400;
+    font-family: FiraGO;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: left;
+    color: #76777C;
+
+}
+.main-info h3, p{
+    margin: 20px;
+}
+.beqa-story {
+    padding: 20px;
+}
+.beqa-story h3{
+    margin-left: 19px;
+}
+.beqa-story p{
+    margin-left: 19px;
+    color: #76777C;
+    font-weight: 400;
+}
